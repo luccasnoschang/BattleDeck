@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Cadastro.css"
 
 function Cadastro() {
@@ -37,7 +36,11 @@ function Cadastro() {
                         <input type="text" />
                     </div>
 
-                    <a href="">Já tem uma conta?</a>
+                    {/* <a href="./Login.jsx">Já tem uma conta?</a> */}
+                    <button
+                        onPress={() => {}}
+                     
+                    >Já tem uma conta?</button>
                     <button>Criar Conta</button>
 
                 </div>
