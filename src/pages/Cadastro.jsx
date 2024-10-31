@@ -1,4 +1,5 @@
 import "./Cadastro.css"
+import { Link, useNavigate } from 'react-router-dom';
 
 function Cadastro() {
     return (
@@ -15,11 +16,11 @@ function Cadastro() {
 
             <div className='parteBaixo'>
                 <div className='divCadastrar'>
-                  
-                  <div className='textoInicial'>
-                    <h1 className='titulo'>Crie a sua conta</h1>
-                    <p className='subTitulo'>Por favor, preencha seus dados para criar uma conta</p>
-                  </div>
+
+                    <div className='textoInicial'>
+                        <h1 className='titulo'>Crie a sua conta</h1>
+                        <p className='subTitulo'>Por favor, preencha seus dados para criar uma conta</p>
+                    </div>
 
                     <div className='divDescricao'>
                         <p className='descricaoInput'>Seu apelido*</p>
@@ -36,12 +37,14 @@ function Cadastro() {
                         <input type="text" />
                     </div>
 
-                    {/* <a href="./Login.jsx">Já tem uma conta?</a> */}
-                    <button
-                        onPress={() => {}}
-                     
-                    >Já tem uma conta?</button>
-                    <button>Criar Conta</button>
+                    <Link to="/">
+                        <p>Já tem uma conta?</p>
+                    </Link>
+
+
+                    <Link to="/">
+                        <button> Criar Conta</button>
+                    </Link>
 
                 </div>
             </div>

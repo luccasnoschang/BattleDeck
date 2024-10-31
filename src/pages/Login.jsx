@@ -1,6 +1,10 @@
+import { Link, useNavigate } from 'react-router-dom'
 import './Login.css'
 
 function Login() {
+
+    const navigate = useNavigate();
+
     return (
         <div className='container'>
         {/* <img className='imgFundo' src="./src/assets/images/imgCadastro.png" alt="" /> */}
@@ -31,8 +35,11 @@ function Login() {
                     <input type="text" />
                 </div>
 
-                <a href="./src/pages/Cadastro.jsx">Não tem uma conta?</a>
-                <button>Entrar</button>
+                <Link to="/cadastro">
+                    <p>Não tem uma conta?</p>
+                </Link>
+
+                <button onClick={() => navigate('/batalhas')}>Entrar</button>
 
             </div>
         </div>

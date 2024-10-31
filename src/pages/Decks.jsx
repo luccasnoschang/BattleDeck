@@ -1,12 +1,15 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import './Decks.css'
 
 function Decks() {
   return (
-    <div>
+    <div className='containerDecks'>
       <Navbar/>
 
-      <p>bbbbbbbbbbb</p>
+      
+      
+      
     </div>
   )
 }

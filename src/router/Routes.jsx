@@ -2,19 +2,19 @@ import { createBrowserRouter } from "react-router-dom";
 import Cadastro from "../pages/Cadastro";
 import Login from "../pages/Login";
 
-import Battles from "../pages/Battles";
-import Profile from "../pages/Profile";
+import Batalhas from "../pages/Batalhas";
+import Perfil from "../pages/Perfil";
 import Decks from "../pages/Decks";
-import Store from "../pages/Store";
+import Loja from "../pages/Loja";
 
 const router = createBrowserRouter([
     {path: "/cadastro", element: <Cadastro />},
-    {path: "/login", element: <Login />},
+    {path: "/", element: <Login />},
 
-    {path: "/", element: <Battles />},
-    {path: "/profile", element: <Profile />},
+    {path: "/batalhas", element: <Batalhas />},
+    {path: "/perfil", element: <Perfil />},
     {path: "/decks", element: <Decks />},
-    {path: "/store", element: <Store />},
+    {path: "/loja", element: <Loja />},
     
 ])
 
