@@ -8,9 +8,45 @@ html,
 body {
     height: 100vh;
     width: 100%;
+    background-color: #D3D6CF;
 }
 
 .containerLoja {
-    background-color: #D3D6CF;
-    height: 100vh;
+
+    
+
 }
+.divMercador {
+    border: 2px solid red;
+    height: 50vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.imgMercador {
+    width: 49vh;
+}
+.divDeck {
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+.divDecks {
+    border: 2px solid red;
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgDecks {
+    width: 30vh;
+}
+.imgDecks:hover {
+    width: 35vh;
+    cursor: pointer;
+}
+

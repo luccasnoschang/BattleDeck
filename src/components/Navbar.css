@@ -18,11 +18,11 @@
 }
 
 .opcoesNavegacao:hover{
-    border-left: 1.5px solid rgb(176, 176, 176);
+    /* border-left: 1.5px solid rgb(176, 176, 176);
     border-right: 1px solid rgb(176, 176, 176);
-    border-bottom: 1.5px solid rgb(176, 176, 176);
+    border-bottom: 1.5px solid rgb(176, 176, 176); */
     border-radius: 0px 0px 4px 4px;
-    font-size: 14px;
+    /* font-size: 14px; */
     background:linear-gradient(#686868, #4D4C4C);
     padding-top:25px;
     transition-duration: .2s;
