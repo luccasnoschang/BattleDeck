@@ -11,5 +11,19 @@ body {
 }
 
 .containerBattles {
+    background-color: #CEBFA5;
+    height: 100vh;
+}   
 
+.divMapa{
+    display: flex;
+    background-color: #CEBFA5;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
+.mapa{
+    width: 500px;
+}
+
