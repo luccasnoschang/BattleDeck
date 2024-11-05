@@ -7,6 +7,13 @@ function Perfil() {
     <div className='containerPerfil'>
       <Navbar/>
 
+    <div className='conteudoPerfil'>
+
+    <img className='ImagemPerfil' src="./src/assets/images/QuadroPerfil.png"  alt="BackgroundPerfil" />
+
+
+
+    </div>
 
 
     </div>
