@@ -14,10 +14,10 @@ function Loja() {
       </div>
       <div className='divDeck'>
 
-        <div className='divDecks'><img className='imgDecks' src="./src/assets/images/LogoShadowDuel.png" alt="" /></div>
-        <div className='divDecks'><img className='imgDecks' src="./src/assets/images/LogoShadowDuel.png" alt="" /></div>
-        <div className='divDecks'><img className='imgDecks' src="./src/assets/images/LogoShadowDuel.png"/></div>
-        <div className='divDecks'><img className='imgDecks' src="./src/assets/images/LogoShadowDuel.png"/></div>
+        <div className='divDecks'><img className='imgDecks' src="./src/assets/images/carta 1.png" alt="" /></div>
+        <div className='divDecks'><img className='imgDecks' src="./src/assets/images/carta 2.png" alt="" /></div>
+        <div className='divDecks'><img className='imgDecks' src="./src/assets/images/carta 3.png"/></div>
+        <div className='divDecks'><img className='imgDecks' src="./src/assets/images/carta 4.png"/></div>
 
       </div>
     </div>
