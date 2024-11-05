@@ -7,7 +7,9 @@ function Batalhas() {
     <div className='containerBattles'>
       <Navbar/>
 
-        
+        <div className='divMapa'>
+            <img className='mapa' src="./src/assets/images/mapaBatalhas.png" alt="" />
+        </div>
 
     </div>
   )
