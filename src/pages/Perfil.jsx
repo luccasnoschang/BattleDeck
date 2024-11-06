@@ -15,7 +15,7 @@ function Perfil() {
           <img className='imagemLogoPerfil' src="./src/assets/images/LogoShadowDuel.png" alt="" />
 
           <div className='usernameTexto'>
-            <h1 className='TextoNomePerfil'> Username:</h1>
+            <h1 className='TextoNomePerfil'> Username:</h1> 
           </div>
           <div className='textoPerfil'>
 
