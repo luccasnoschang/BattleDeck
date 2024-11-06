@@ -17,18 +17,63 @@ body {
     background-position: center;
     height: 100vh;
     width: 100%;
-    
 }
 
-.conteudoPerfil{
+.paginaPerfil {
 
-    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
 
 }
 
-.ImagemPerfil{
+.conteudoPerfil {
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 600px;
+    background-image: url('./src/assets/images/QuadroPerfil.png');
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    gap: 100px;
+    color: aliceblue;
+}
 
-    border: 2px solid red;
+.imagemLogoPerfil {
 
+    padding-bottom: 30px;
+
+}
+
+.usernameTexto {
+
+    width: 500px;
+    color: aliceblue;
+
+}
+
+.textoPerfil {
+
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: flex;
+    width: 500px;
+    gap: 20px;
+
+}
+
+.ImagemPerfil {
+
+
+    display: flex;
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 100px;
 
 }

@@ -11,10 +11,10 @@ body {
     background-color: #D3D6CF;
 }
 
-.containerLoja {
+/* .containerLoja {
 
 
-}
+} */
 
 
 .divMercador {
@@ -36,7 +36,7 @@ body {
 
 }
 .divDecks {
-    border: 2px solid red;
+    border: 2px solid rgb(9, 209, 53);
     height: 45vh;
     width: 100%;
     display: flex;
