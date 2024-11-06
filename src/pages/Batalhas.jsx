@@ -5,13 +5,13 @@ import './Batalhas.css'
 function Batalhas() {
   return (
     <div className='containerBattles'>
-      <Navbar/>
+      <Navbar />
 
-        <div className='divMapa'>
+      <div className='divMapa'>
 
-          <img className='mapa' src="./src/assets/images/mapaBatalhas.png" alt="" />
+        <img className='mapa' src="./src/assets/images/mapaBatalhas.png" alt="" />
 
-        </div>
+      </div>
 
     </div>
   )
