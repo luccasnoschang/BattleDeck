@@ -41,6 +41,13 @@ function Decks() {
             alt="Deck Mago"
           />
 
+<img
+            onClick={() => handleDeckClick('Mago')}
+            className="DeckCartas"
+            src="./src/assets/images/DeckCavaleiro.png"
+            alt="Deck Mago"
+          />
+
           
         </div>
       </div>
