@@ -71,7 +71,7 @@
     gap: 30px;
 }
 
-.titulo {
+.tituloLogin {
     font-weight: 400;
 }
 
@@ -103,7 +103,7 @@ a {
     color: #717885;
 }
 
-button {
+.botaoEntrar {
     padding: 20px;
     width: 450px;
     border-radius: 6px;

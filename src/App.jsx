@@ -7,6 +7,7 @@ import Batalhas from './pages/Batalhas';
 import Loja from './pages/Loja'; 
 import Perfil from './pages/Perfil'; 
 import Decks from './pages/Decks'; 
+import Caminho from './pages/Caminho'; 
 
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
         {/* Rota para login e cadastro*/}
         <Route path="/login" element={<Login />} />
         <Route path="/cadastro" element={<Cadastro />} />
+
+        {/* Rota caminho */}
+        <Route path="caminho" element={<Caminho />} />
 
         {/* Rotas da navbar */}
         <Route path="/" element={<Navbar />}>
