@@ -12,8 +12,8 @@ function Decks() {
     setSelectedDeck(deck);
 
     // Quantidade de cartas fictícia para cada deck
-    const count = deck === 'Bruxo' ? 10 : deck === 'Demonio' ? 15 : 20;
-    setCardsCount(count);
+    // const count = deck === 'Bruxo' ? 10 : deck === 'Demonio' ? 15 : 20;
+    // setCardsCount(count);
   };
 
   return (
@@ -41,13 +41,7 @@ function Decks() {
             alt="Deck Mago"
           />
 
-          <div className="cartasTotais">
-            {selectedDeck && (
-              <p>
-                Deck Selecionado: {selectedDeck} - Cartas Totais: {cardsCount}
-              </p>
-            )}
-          </div>
+          
         </div>
       </div>
     </div>
