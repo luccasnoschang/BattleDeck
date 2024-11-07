@@ -3,17 +3,19 @@ import Navbar from '../components/Navbar';
 import './Decks.css';
 
 function Decks() {
-  // Estados para guardar o deck selecionado e o número de cartas
   const [selectedDeck, setSelectedDeck] = useState(null);
-  const [cardsCount, setCardsCount] = useState(0);
+  const [cards, setCards] = useState([]);
 
-  // Função de clique para atualizar o estado com o deck e número de cartas
+  const decks = {
+    Bruxo: ['Carta 1', 'Carta 2', 'Carta 3'],
+    Demonio: ['Carta 4', 'Carta 5', 'Carta 6', 'Carta 7'],
+    Mago: ['Carta 8', 'Carta 9'],
+    Cavaleiro: ['Carta 10', 'Carta 11', 'Carta 12', 'Carta 13']
+  };
+
   const handleDeckClick = (deck) => {
     setSelectedDeck(deck);
-
-    // Quantidade de cartas fictícia para cada deck
-    // const count = deck === 'Bruxo' ? 10 : deck === 'Demonio' ? 15 : 20;
-    // setCardsCount(count);
+    setCards(decks[deck] || []);
   };
 
   return (
@@ -21,6 +23,7 @@ function Decks() {
       <Navbar />
 
       <div className="principal">
+        {/* Div à esquerda para os decks */}
         <div className="decks">
           <img
             onClick={() => handleDeckClick('Bruxo')}
@@ -40,15 +43,24 @@ function Decks() {
             src="./src/assets/images/DeckMago.png"
             alt="Deck Mago"
           />
-
-<img
-            onClick={() => handleDeckClick('Mago')}
+          <img
+            onClick={() => handleDeckClick('Cavaleiro')}
             className="DeckCartas"
             src="./src/assets/images/DeckCavaleiro.png"
-            alt="Deck Mago"
+            alt="Deck Cavaleiro"
           />
+        </div>
 
-          
+        {/* Div à direita para exibir as cartas do deck selecionado */}
+        <div className="aparicaoCartas">
+          <h2>{selectedDeck ? `Cartas do Deck: ${selectedDeck}` : 'Selecione um Deck'}</h2>
+          <div className="cardsContainer">
+            {cards.map((card, index) => (
+              <div key={index} className="card">
+                {card}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

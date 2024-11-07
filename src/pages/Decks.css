@@ -1,75 +1,67 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html, body {
-    height: 100vh;
-    width: 100%;
+  height: 100vh;
+  width: 100%;
 }
 
 .containerDecks {
-    background-image: url('./src/assets/images/BackgroundDecks.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 150vh;
-    width: 100%;
+  background-image: url('./src/assets/images/BackgroundDecks.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 150vh;
+  width: 100%;
 }
 
-.principal{
-
-    width: 100%;
-    height: 100%;
-    padding-bottom: 50px;
-
+.principal {
+  display: flex; /* Torna o layout flexível */
+  width: 100%;
+  height: 100%;
+  padding-bottom: 50px;
 }
 
-.decks{
-
-    border: 2px solid red;
-    /* height: 30vh; */
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 50%;
-    gap: 25px;
-    
-
+.decks {
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%; /* Ocupa 50% da largura */
+  gap: 25px;
 }
 
-.DeckCartas{
-
-    display: flex;
-    gap: 10px;
-    width: 20vh;
-    margin-top: 30px;
-
-
-}
-
-/* Decks.css */
 .DeckCartas {
-    width: 150px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-  }
-  
-  .DeckCartas:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
-  }
-  
-  .DeckCartas:active {
-    transform: scale(0.95);
-  }
-  
-  .cartasTotais {
-    margin-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-  }
-  
+  width: 150px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.DeckCartas:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.DeckCartas:active {
+  transform: scale(0.95);
+}
+
+.cartasTotais {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.aparicaoCartas {
+  width: 60%; /* Ocupa os outros 50% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(0, 217, 255);
+  padding: 20px;
+}
