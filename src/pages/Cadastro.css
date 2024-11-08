@@ -71,7 +71,7 @@
     gap: 30px;
 }
 
-.titulo {
+.tituloCadastro {
     font-weight: 400;
 }
 
@@ -103,7 +103,7 @@ p {
     color: #717885;
 }
 
-button {
+.botaoCadastrar {
     padding: 20px;
     width: 450px;
     border-radius: 6px;

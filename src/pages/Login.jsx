@@ -21,7 +21,7 @@ function Login() {
             <div className='divLogar'>
               
               <div className='textoInicial'>
-                <h1 className='titulo'>Bem vindo de volta!</h1>
+                <h1 className='tituloLogin'>Bem vindo de volta!</h1>
                 <p className='subTitulo'>Estamos felizes em ter você de volta</p>
               </div>
 
@@ -39,7 +39,7 @@ function Login() {
                     <p>Não tem uma conta?</p>
                 </Link>
 
-                <button onClick={() => navigate('/batalhas')}>Entrar</button>
+                <button className='botaoEntrar' onClick={() => navigate('/caminho')}>Entrar</button>
 
             </div>
         </div>

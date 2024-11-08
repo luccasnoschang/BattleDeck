@@ -18,7 +18,7 @@ function Cadastro() {
                 <div className='divCadastrar'>
 
                     <div className='textoInicial'>
-                        <h1 className='titulo'>Crie a sua conta</h1>
+                        <h1 className='tituloCadastro'>Crie a sua conta</h1>
                         <p className='subTitulo'>Por favor, preencha seus dados para criar uma conta</p>
                     </div>
 
@@ -43,7 +43,7 @@ function Cadastro() {
 
 
                     <Link to="/">
-                        <button> Criar Conta</button>
+                        <button className="botaoCadastrar"> Criar Conta</button>
                     </Link>
 
                 </div>
