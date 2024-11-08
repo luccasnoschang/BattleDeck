@@ -7,10 +7,27 @@ function Decks() {
   const [cards, setCards] = useState([]);
 
   const decks = {
-    Bruxo: ['Carta 1', 'Carta 2', 'Carta 3'],
-    Demonio: ['Carta 4', 'Carta 5', 'Carta 6', 'Carta 7'],
-    Mago: ['Carta 8', 'Carta 9'],
-    Cavaleiro: ['Carta 10', 'Carta 11', 'Carta 12', 'Carta 13']
+    Bruxo: [
+      { nome: 'Carta 1', imagem: './src/assets/images/Carta 1.png' },
+      { nome: 'Carta 2', imagem: './src/assets/images/Carta 1.png' },
+      { nome: 'Carta 3', imagem: './src/assets/images/Carta 1.png' },
+    ],
+    Demonio: [
+      { nome: 'Carta 4', imagem: './src/assets/images/Carta 2.png' },
+      { nome: 'Carta 5', imagem: './src/assets/images/Carta 2.png' },
+      { nome: 'Carta 6', imagem: './src/assets/images/Carta 2.png' },
+      { nome: 'Carta 7', imagem: './src/assets/images/Carta 2.png' },
+    ],
+    Mago: [
+      { nome: 'Carta 8', imagem: './src/assets/images/Carta 3.png' },
+      { nome: 'Carta 9', imagem: './src/assets/images/Carta 3.png' },
+    ],
+    Cavaleiro: [
+      { nome: 'Carta 10', imagem: './src/assets/images/Carta 4.png' },
+      { nome: 'Carta 11', imagem: './src/assets/images/Carta 4.png' },
+      { nome: 'Carta 12', imagem: './src/assets/images/Carta 4.png' },
+      { nome: 'Carta 13', imagem: './src/assets/images/Carta 4.png' },
+    ]
   };
 
   const handleDeckClick = (deck) => {
@@ -57,7 +74,8 @@ function Decks() {
           <div className="cardsContainer">
             {cards.map((card, index) => (
               <div key={index} className="card">
-                {card}
+                <img src={card.imagem} alt={card.nome} className="cardImage" />
+                <p>{card.nome}</p>
               </div>
             ))}
           </div>
