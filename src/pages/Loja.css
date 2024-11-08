@@ -18,7 +18,6 @@ body {
 
 
 .divMercador {
-    border: 2px solid red;
     height: 50vh;
     display:flex;
     align-items: center;
@@ -36,7 +35,6 @@ body {
 
 }
 .divDecks {
-    border: 2px solid rgb(9, 209, 53);
     height: 45vh;
     width: 100%;
     display: flex;
@@ -44,10 +42,10 @@ body {
     justify-content: center;
 }
 .imgDecks {
-    width: 30vh;
+    width: 25vh;
 }
 .imgDecks:hover {
-    width: 35vh;
+    width: 30vh;
     cursor: pointer;
 }
 
