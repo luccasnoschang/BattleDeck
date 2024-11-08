@@ -26,12 +26,12 @@ html, body {
 }
 
 .decks {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 40%; /* Ocupa 50% da largura */
+  width: 35%; /* Ocupa 50% da largura */
   gap: 25px;
   max-width: 100%; 
  
@@ -62,7 +62,7 @@ html, body {
 
 /* Container das cartas selecionadas */
 .aparicaoCartas {
-  width: 60%; /* Ocupa 65% da largura */
+  width: 65%; /* Ocupa 65% da largura */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,7 +79,7 @@ html, body {
 h2 {
   font-size: 26px;
   font-weight: 700;
-  color: #333;
+  color: #fff;
   margin-bottom: 20px; /* Distância do título para as cartas */
   text-align: center;
   text-transform: uppercase;
