@@ -95,7 +95,7 @@ function Loja() {
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'space-between',
-            backgroundColor: 'white'
+            backgroundColor: 'D3D6CF'
           }}>
             {/* Título e descrição */}
             <div style={{ padding: '20px', backgroundColor: '#D3D6CF', flexShrink: 0 }}>
@@ -110,6 +110,7 @@ function Loja() {
               justifyContent: 'center',
               overflowY: 'auto',
               padding: '10px',
+              backgroundColor: '#D3D6CF',
               flexGrow: 1, // Garante que o espaço restante seja ocupado pelas cartas
               flexShrink: 0, // Impede que a área encolha além do necessário
             }}>
