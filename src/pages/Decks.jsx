@@ -11,22 +11,29 @@ function Decks() {
       { nome: 'Carta 1', imagem: './src/assets/images/Carta 1.png' },
       { nome: 'Carta 2', imagem: './src/assets/images/Carta 1.png' },
       { nome: 'Carta 3', imagem: './src/assets/images/Carta 1.png' },
+      { nome: 'Carta 4', imagem: './src/assets/images/Carta 1.png' },
+      { nome: 'Carta 5', imagem: './src/assets/images/Carta 1.png' },
     ],
     Demonio: [
+      { nome: 'Carta 1', imagem: './src/assets/images/Carta 2.png' },
+      { nome: 'Carta 2', imagem: './src/assets/images/Carta 2.png' },
+      { nome: 'Carta 3', imagem: './src/assets/images/Carta 2.png' },
       { nome: 'Carta 4', imagem: './src/assets/images/Carta 2.png' },
       { nome: 'Carta 5', imagem: './src/assets/images/Carta 2.png' },
-      { nome: 'Carta 6', imagem: './src/assets/images/Carta 2.png' },
-      { nome: 'Carta 7', imagem: './src/assets/images/Carta 2.png' },
     ],
     Mago: [
-      { nome: 'Carta 8', imagem: './src/assets/images/Carta 3.png' },
-      { nome: 'Carta 9', imagem: './src/assets/images/Carta 3.png' },
+      { nome: 'Carta 1', imagem: './src/assets/images/Carta 3.png' },
+      { nome: 'Carta 2', imagem: './src/assets/images/Carta 3.png' },
+      { nome: 'Carta 3', imagem: './src/assets/images/Carta 3.png' },
+      { nome: 'Carta 4', imagem: './src/assets/images/Carta 3.png' },
+      { nome: 'Carta 5', imagem: './src/assets/images/Carta 3.png' },
     ],
     Cavaleiro: [
-      { nome: 'Carta 10', imagem: './src/assets/images/Carta 4.png' },
-      { nome: 'Carta 11', imagem: './src/assets/images/Carta 4.png' },
-      { nome: 'Carta 12', imagem: './src/assets/images/Carta 4.png' },
-      { nome: 'Carta 13', imagem: './src/assets/images/Carta 4.png' },
+      { nome: 'Carta 1', imagem: './src/assets/images/Carta 4.png' },
+      { nome: 'Carta 2', imagem: './src/assets/images/Carta 4.png' },
+      { nome: 'Carta 3', imagem: './src/assets/images/Carta 4.png' },
+      { nome: 'Carta 4', imagem: './src/assets/images/Carta 4.png' },
+      { nome: 'Carta 5', imagem: './src/assets/images/Carta 4.png' },
     ]
   };
 
