@@ -10,7 +10,7 @@ html, body {
 }
 
 .containerDecks {
-  background-image: url('./src/assets/images/BackgroundDecks.png');
+  /* background-image: url('./src/assets/images/BackgroundDecks.png'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -29,11 +29,11 @@ html, body {
   /* border: 2px solid red; */
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   width: 35%; /* Ocupa 50% da largura */
   gap: 25px;
   max-width: 100%; 
+  padding: 20px;
  
   
 }
@@ -46,7 +46,7 @@ html, body {
 
 .DeckCartas:hover {
   transform: scale(1.05);
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); */
 }
 
 .DeckCartas:active {
@@ -68,9 +68,6 @@ html, body {
   align-items: center;
   justify-content: flex-start;
   padding: 25px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Fundo mais claro para contraste */
-  border-radius: 12px;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Sombra suave para profundidade */
   max-height: 100%; /* Limita a altura máxima para não ocupar toda a tela */
   overflow-y: auto; /* Permite rolar as cartas caso excedam o tamanho */
 }
@@ -79,7 +76,7 @@ html, body {
 h2 {
   font-size: 26px;
   font-weight: 700;
-  color: #fff;
+  color: black;
   margin-bottom: 20px; /* Distância do título para as cartas */
   text-align: center;
   text-transform: uppercase;
@@ -93,7 +90,7 @@ h2 {
   gap: 30px;
   justify-content: center;
   margin-top: 20px;
-  overflow-x: auto; /* Permite rolar horizontalmente se houver muitas cartas */
+  overflow-x: auto; 
   padding-bottom: 10px;
   
 }
@@ -116,10 +113,9 @@ h2 {
 
 .card img {
   width: 100%;
-  height: 300px; /* Mantém a altura constante para todas as imagens */
+  height: 250px; /* Mantém a altura constante para todas as imagens */
   object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 10px;
 }
 
 /* Nome da carta abaixo da imagem */
@@ -127,6 +123,5 @@ h2 {
   font-size: 16px;
   font-weight: 400;
   color: #444;
-  margin-top: 10px;
   text-transform: capitalize;
 }

@@ -13,10 +13,7 @@ html, body {
 
 /* Contêiner de fundo da página de perfil */
 .containerPerfil {
-    background-image: url('./src/assets/images/BackgroundPerfil.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #D3D6CF;
     height: 100vh;
     width: 100%;
 }
@@ -42,6 +39,7 @@ html, body {
     flex-direction: column; /* Organiza os itens de forma vertical */
     gap: 70px; /* Espaço entre os itens dentro do contêiner */
     color: aliceblue;
+    border-radius: 10px;
 }
 
 /* A imagem do logo do perfil com espaçamento embaixo */
