@@ -1,8 +1,5 @@
-# React + Vite
+# Shadow Duel - Jogo RPG de cartas 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Shadow Duel é um jogo de RPG de batalha de cartas em que os jogadores colecionam cartas de personagens, formando um baralho estratégico para duelos. O jogo se passa em um universo sombrio e místico, onde diferentes facções competem pelo controle de poderes ocultos.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
