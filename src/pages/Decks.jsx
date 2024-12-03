@@ -7,33 +7,33 @@ function Decks() {
   const [cards, setCards] = useState([]);
 
   const decks = {
-    Bruxo: [
-      { nome: 'Carta 1', imagem: './src/assets/images/Carta 1.png' },
-      { nome: 'Carta 2', imagem: './src/assets/images/Carta 1.png' },
-      { nome: 'Carta 3', imagem: './src/assets/images/Carta 1.png' },
-      { nome: 'Carta 4', imagem: './src/assets/images/Carta 1.png' },
-      { nome: 'Carta 5', imagem: './src/assets/images/Carta 1.png' },
+    Goblin: [
+      { nome: 'Carta 1', imagem: './src/assets/images/Carta de goblin 1.png' },
+      { nome: 'Carta 2', imagem: './src/assets/images/Carta de goblin 2.png' },
+      { nome: 'Carta 3', imagem: './src/assets/images/Carta de goblin 3.png' },
+      { nome: 'Carta 4', imagem: './src/assets/images/Carta de goblin 4.png' },
+      { nome: 'Carta 5', imagem: './src/assets/images/Carta de goblin 5.png' },
     ],
-    Demonio: [
-      { nome: 'Carta 1', imagem: './src/assets/images/Carta 2.png' },
-      { nome: 'Carta 2', imagem: './src/assets/images/Carta 2.png' },
-      { nome: 'Carta 3', imagem: './src/assets/images/Carta 2.png' },
-      { nome: 'Carta 4', imagem: './src/assets/images/Carta 2.png' },
-      { nome: 'Carta 5', imagem: './src/assets/images/Carta 2.png' },
+    Esqueleto: [
+      { nome: 'Carta 1', imagem: './src/assets/images/Carta de esqueleto 1.png' },
+      { nome: 'Carta 2', imagem: './src/assets/images/Carta de esqueleto 2.png' },
+      { nome: 'Carta 3', imagem: './src/assets/images/Carta de esqueleto 3.png' },
+      { nome: 'Carta 4', imagem: './src/assets/images/Carta de esqueleto 4.png' },
+      { nome: 'Carta 5', imagem: './src/assets/images/Carta de esqueleto 5.png' },
     ],
     Mago: [
-      { nome: 'Carta 1', imagem: './src/assets/images/Carta 3.png' },
-      { nome: 'Carta 2', imagem: './src/assets/images/Carta 3.png' },
-      { nome: 'Carta 3', imagem: './src/assets/images/Carta 3.png' },
-      { nome: 'Carta 4', imagem: './src/assets/images/Carta 3.png' },
-      { nome: 'Carta 5', imagem: './src/assets/images/Carta 3.png' },
+      { nome: 'Carta 1', imagem: './src/assets/images/Carta de mago 1.png' },
+      { nome: 'Carta 2', imagem: './src/assets/images/Carta de mago 2.png' },
+      { nome: 'Carta 3', imagem: './src/assets/images/Carta de mago 3.png' },
+      { nome: 'Carta 4', imagem: './src/assets/images/Carta de mago 4.png' },
+      { nome: 'Carta 5', imagem: './src/assets/images/Carta de mago 5.png' },
     ],
-    Cavaleiro: [
-      { nome: 'Carta 1', imagem: './src/assets/images/Carta 4.png' },
-      { nome: 'Carta 2', imagem: './src/assets/images/Carta 4.png' },
-      { nome: 'Carta 3', imagem: './src/assets/images/Carta 4.png' },
-      { nome: 'Carta 4', imagem: './src/assets/images/Carta 4.png' },
-      { nome: 'Carta 5', imagem: './src/assets/images/Carta 4.png' },
+    Guerreiro: [
+      { nome: 'Carta 1', imagem: './src/assets/images/Carta de guerreiro 1.png' },
+      { nome: 'Carta 2', imagem: './src/assets/images/Carta de guerreiro 2.png' },
+      { nome: 'Carta 3', imagem: './src/assets/images/Carta de guerreiro 3.png' },
+      { nome: 'Carta 4', imagem: './src/assets/images/Carta de guerreiro 4.png' },
+      { nome: 'Carta 5', imagem: './src/assets/images/Carta de guerreiro 5.png' },
     ]
   };
 
@@ -50,16 +50,16 @@ function Decks() {
         {/* Div à esquerda para os decks */}
         <div className="decks">
           <img
-            onClick={() => handleDeckClick('Bruxo')}
+            onClick={() => handleDeckClick('Goblin')}
             className="DeckCartas"
-            src="./src/assets/images/DeckBruxo.png"
-            alt="Deck Bruxo"
+            src="./src/assets/images/DeckGoblin.png"
+            alt="Deck Goblin"
           />
           <img
-            onClick={() => handleDeckClick('Demonio')}
+            onClick={() => handleDeckClick('Esqueleto')}
             className="DeckCartas"
-            src="./src/assets/images/DeckDemonio.png"
-            alt="Deck Demonio"
+            src="./src/assets/images/DeckEsqueleto.png"
+            alt="Deck Esqueleto"
           />
           <img
             onClick={() => handleDeckClick('Mago')}
@@ -68,10 +68,10 @@ function Decks() {
             alt="Deck Mago"
           />
           <img
-            onClick={() => handleDeckClick('Cavaleiro')}
+            onClick={() => handleDeckClick('Guerreiro')}
             className="DeckCartas"
-            src="./src/assets/images/DeckCavaleiro.png"
-            alt="Deck Cavaleiro"
+            src="./src/assets/images/DeckGuerreiro.png"
+            alt="Deck Guerreiro"
           />
         </div>
 
